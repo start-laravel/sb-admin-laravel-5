@@ -12,7 +12,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/">SB Admin v2.0</a>
+                <a class="navbar-brand" href="{{ url ('') }}">SB Admin v2.0 | Laravel 5</a>
             </div>
             <!-- /.navbar-header -->
 
@@ -221,7 +221,7 @@
                         <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
                         </li>
                         <li class="divider"></li>
-                        <li><a href="/login"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        <li><a href="{{ url ('login') }}"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
                         </li>
                     </ul>
                     <!-- /.dropdown-user -->
@@ -245,38 +245,38 @@
                             <!-- /input-group -->
                         </li>
                         <li {{ (Request::is('/') ? 'class="active"' : '') }}>
-                            <a href="/"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                            <a href="{{ url ('') }}"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                         </li>
                         <li {{ (Request::is('*charts') ? 'class="active"' : '') }}>
-                            <a href="/charts"><i class="fa fa-bar-chart-o fa-fw"></i> Charts</a>
+                            <a href="{{ url ('charts') }}"><i class="fa fa-bar-chart-o fa-fw"></i> Charts</a>
                             <!-- /.nav-second-level -->
                         </li>
                         <li {{ (Request::is('*tables') ? 'class="active"' : '') }}>
-                            <a href="/tables"><i class="fa fa-table fa-fw"></i> Tables</a>
+                            <a href="{{ url ('tables') }}"><i class="fa fa-table fa-fw"></i> Tables</a>
                         </li>
                         <li {{ (Request::is('*forms') ? 'class="active"' : '') }}>
-                            <a href="/forms"><i class="fa fa-edit fa-fw"></i> Forms</a>
+                            <a href="{{ url ('forms') }}"><i class="fa fa-edit fa-fw"></i> Forms</a>
                         </li>
                         <li >
                             <a href="#"><i class="fa fa-wrench fa-fw"></i> UI Elements<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li {{ (Request::is('*panels') ? 'class="active"' : '') }}>
-                                    <a href="/panels">Panels and Collapsibles</a>
+                                    <a href="{{ url ('panels') }}">Panels and Collapsibles</a>
                                 </li>
                                 <li {{ (Request::is('*buttons') ? 'class="active"' : '') }}>
-                                    <a href="/buttons">Buttons</a>
+                                    <a href="{{ url ('buttons' ) }}">Buttons</a>
                                 </li>
                                 <li {{ (Request::is('*notifications') ? 'class="active"' : '') }}>
                                     <a href="{{ url('notifications') }}">Alerts</a>
                                 </li>
                                 <li {{ (Request::is('*typography') ? 'class="active"' : '') }}>
-                                    <a href="/typography">Typography</a>
+                                    <a href="{{ url ('typography') }}">Typography</a>
                                 </li>
                                 <li {{ (Request::is('*icons') ? 'class="active"' : '') }}>
-                                    <a href="/icons"> Icons</a>
+                                    <a href="{{ url ('icons') }}"> Icons</a>
                                 </li>
                                 <li {{ (Request::is('*grid') ? 'class="active"' : '') }}>
-                                    <a href="/grid">Grid</a>
+                                    <a href="{{ url ('grid') }}">Grid</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
@@ -315,16 +315,16 @@
                             <a href="#"><i class="fa fa-files-o fa-fw"></i> Sample Pages<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li {{ (Request::is('*blank') ? 'class="active"' : '') }}>
-                                    <a href="/blank">Blank Page</a>
+                                    <a href="{{ url ('blank') }}">Blank Page</a>
                                 </li>
                                 <li>
-                                    <a href="/login">Login Page</a>
+                                    <a href="{{ url ('login') }}">Login Page</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
                         </li>
                         <li {{ (Request::is('*documentation') ? 'class="active"' : '') }}>
-                            <a href="/documentation"><i class="fa fa-file-word-o fa-fw"></i> Documentation</a>
+                            <a href="{{ url ('documentation') }}"><i class="fa fa-file-word-o fa-fw"></i> Documentation</a>
                         </li>
                     </ul>
                 </div>
