@@ -267,7 +267,7 @@
                                     <a href="/buttons">Buttons</a>
                                 </li>
                                 <li {{ (Request::is('*notifications') ? 'class="active"' : '') }}>
-                                    <a href="/notifications">Alerts</a>
+                                    <a href="{{ url('notifications') }}">Alerts</a>
                                 </li>
                                 <li {{ (Request::is('*typography') ? 'class="active"' : '') }}>
                                     <a href="/typography">Typography</a>
