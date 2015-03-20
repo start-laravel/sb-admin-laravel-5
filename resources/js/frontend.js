@@ -140,3 +140,26 @@ var bdata = {
 
 var cpolar = document.getElementById("cpolar").getContext("2d");
 new Chart(cpolar).PolarArea(podata, { responsive: true});
+
+                var ddata1 = [
+                    {
+                        value: 50,
+                        color:"#F7464A",
+                        highlight: "#FF5A5E",
+                        label: "Red"
+                    },
+                    {
+                        value: 300,
+                        color: "#46BFBD",
+                        highlight: "#5AD3D1",
+                        label: "Green"
+                    },
+                    {
+                        value: 160,
+                        color: "#FDB45C",
+                        highlight: "#FFC870",
+                        label: "Yellow"
+                    }
+                ]
+                var cdonut1 = document.getElementById("cdonut1").getContext("2d");
+                new Chart(cdonut1).Doughnut(ddata1, { responsive: true});
