@@ -14,7 +14,7 @@ Find out more [Free Lareval Themes at StartLaravel.com](http://www.startlaravel.
 - `composer install`
 - `npm install`
 - `bower install`
-- `grunt watch`
+- `gulp watch`
 
 ### Automation tools
 
