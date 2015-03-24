@@ -19,4 +19,4 @@ Find out more [Free Lareval Themes at StartLaravel.com](http://www.startlaravel.
 
 ### Automation tools
 
-- [Grunt](http://gruntjs.com/)
+- [Gulp](http://gulpjs.com/)
