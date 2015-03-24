@@ -7,7 +7,7 @@ Find out more [Free Lareval Themes at StartLaravel.com](http://www.startlaravel.
 ## Installation
 
 1. Clone this project or Download that ZIP file
-2. Make sure you have bower, grunt-cli and npm installed globally
+2. Make sure you have bower, gulp and npm installed globally
 3. On the command prompt run the following commands
 - cd `project-directory`
 - Set permission 777 for storage
