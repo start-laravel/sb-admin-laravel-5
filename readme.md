@@ -15,6 +15,7 @@ Find out more [Free Lareval Themes at StartLaravel.com](http://www.startlaravel.
 - `npm install`
 - `bower install`
 - `gulp watch`
+- 'php artisan cache:clear'
 
 ### Automation tools
 
