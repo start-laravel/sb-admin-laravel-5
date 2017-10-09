@@ -1,7 +1,7 @@
 @extends('layouts.dashboard')
 @section('page_heading','Dashboard')
 @section('section')
-           
+
             <!-- /.row -->
             <div class="col-sm-12">
             <div class="row">
@@ -97,14 +97,14 @@
             <!-- /.row -->
             <div class="row">
                 <div class="col-lg-8">
-                
+
                 @section ('pane2_panel_title', 'Responsive Timeline')
                 @section ('pane2_panel_body')
-                    
+
                     <!-- /.panel -->
-                    
-                        
-              
+
+
+
                     <ul class="timeline">
                         <li>
                             <div class="timeline-badge"><i class="fa fa-check"></i>
@@ -207,9 +207,9 @@
                             </div>
                         </li>
                     </ul>
-                        
+
                         <!-- /.panel-body -->
-                   
+
                     <!-- /.panel -->
                 @endsection
                 @include('widgets.panel', array('header'=>true, 'as'=>'pane2'))
@@ -224,8 +224,8 @@
 
                     @section ('pane1_panel_title', 'Notifications Panel')
                     @section ('pane1_panel_body')
-                     
-                        
+
+
                             <div class="list-group">
                                 <a href="#" class="list-group-item">
                                     <i class="fa fa-comment fa-fw"></i> New Comment
@@ -275,13 +275,13 @@
                             </div>
                             <!-- /.list-group -->
                             <a href="#" class="btn btn-default btn-block">View All Alerts</a>
-                        
+
                         <!-- /.panel-body -->
-                  
+
                     @endsection
                     @include('widgets.panel', array('header'=>true, 'as'=>'pane1'))
-                      
-                    
+
+
                     <!-- /.panel -->
                     @section ('pane3_panel_title', 'Chat')
                     @section ('pane3_panel_body')
@@ -317,14 +317,14 @@
                                         </a>
                                     </li>
                                 </ul>
-                            </div>      
+                            </div>
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
                             <ul class="chat">
                                 <li class="left clearfix">
                                     <span class="chat-img pull-left">
-                                        <img src="http://placehold.it/50/55C1E7/fff" alt="User Avatar" class="img-circle" />
+                                        <img src="//placehold.it/50/55C1E7/fff" alt="User Avatar" class="img-circle" />
                                     </span>
                                     <div class="chat-body clearfix">
                                         <div class="header">
@@ -340,7 +340,7 @@
                                 </li>
                                 <li class="right clearfix">
                                     <span class="chat-img pull-right">
-                                        <img src="http://placehold.it/50/FA6F57/fff" alt="User Avatar" class="img-circle" />
+                                        <img src="//placehold.it/50/FA6F57/fff" alt="User Avatar" class="img-circle" />
                                     </span>
                                     <div class="chat-body clearfix">
                                         <div class="header">
@@ -355,7 +355,7 @@
                                 </li>
                                 <li class="left clearfix">
                                     <span class="chat-img pull-left">
-                                        <img src="http://placehold.it/50/55C1E7/fff" alt="User Avatar" class="img-circle" />
+                                        <img src="//placehold.it/50/55C1E7/fff" alt="User Avatar" class="img-circle" />
                                     </span>
                                     <div class="chat-body clearfix">
                                         <div class="header">
@@ -370,7 +370,7 @@
                                 </li>
                                 <li class="right clearfix">
                                     <span class="chat-img pull-right">
-                                        <img src="http://placehold.it/50/FA6F57/fff" alt="User Avatar" class="img-circle" />
+                                        <img src="//placehold.it/50/FA6F57/fff" alt="User Avatar" class="img-circle" />
                                     </span>
                                     <div class="chat-body clearfix">
                                         <div class="header">
@@ -404,5 +404,5 @@
                 </div>
 
                 <!-- /.col-lg-4 -->
-            
+
 @stop
