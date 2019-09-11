@@ -12,10 +12,10 @@
 	<meta content="" name="description"/>
 	<meta content="" name="author"/>
 
-	<link rel="stylesheet" href="{{ asset("assets/stylesheets/styles.css") }}" />
+	<link rel="stylesheet" href="{{ mix("assets/stylesheets/styles.css") }}" />
 </head>
 <body>
 	@yield('body')
-	<script src="{{ asset("assets/scripts/frontend.js") }}" type="text/javascript"></script>
+	<script src="{{ mix("assets/scripts/frontend.js") }}" type="text/javascript"></script>
 </body>
 </html>
