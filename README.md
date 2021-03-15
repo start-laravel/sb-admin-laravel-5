@@ -13,8 +13,6 @@ Find out more [Free Laravel Themes at StartLaravel.com](http://www.startlaravel.
 
 `$ cp .env.example .env`
 
-`$ php artisan key:generate`  Generate key since this is a cloned project
-
 `$ composer install`  Install required packages
 
 `$ npm install` Install additional depencies
@@ -22,6 +20,8 @@ Find out more [Free Laravel Themes at StartLaravel.com](http://www.startlaravel.
 `$ npm run watch` Optional
 
 `$ php artisan cache:clear` Optional
+
+`$ php artisan key:generate`  Generate key since this is a cloned project
 
 `$ php artisan serve`
 
